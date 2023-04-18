@@ -436,8 +436,11 @@ import * as lqtyProxyStakers from './lqty-proxy-stakers';
 import * as echelonWalletPrimeAndCachedKeyGated from './echelon-wallet-prime-and-cached-key-gated';
 import * as rdntCapitalVoting from './rdnt-capital-voting';
 import * as degenzooErc721AnimalsWeighted from './degenzoo-erc721-animals-weighted';
+import * as kallyStakedBalance from "./kally-staked-balance";
+
 
 const strategies = {
+  'kally-staked-balance': kallyStakedBalance,
   'izumi-veizi': izumiVeiZi,
   'eco-voting-power': ecoVotingPower,
   'forta-shares': fortaShares,
